@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MEV-01 is a cooperative stealth game that has two players utilizing their own skills to inﬁltrate and look for evidence of a vaccine.">
+	<title>MEV-01 | Game design</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" href="image/logo-title.png">
+    <script src="javaScript/jquery-3.2.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="detail-page">
+		    <header class="detail-nav"> 
+		           <div class="home-head container">
+				    	<div class="head-logo col-4">
+				    	<a href="index.html"><img src="image/logo-01.png" alt="logo"></a>
+				    	<h1><a href="index.html">ALEX WEI</a></h1>
+				        </div>
+			    		<nav class="head-nav col-8">
+			    			<ul>
+			    				<li class="recent-page"><a href="portfolio.html">PORTFOLIO</a></li>
+			    				<li class="about"><a href="#">ABOUT</a></li>
+			    				<li><a href="album.html">JOURNEY</a></li>
+			    			</ul>
+			    		</nav>
+			    		
+				    		<div class="burger-menu">
+				    		       <div class="burger-content">
+				                        <div id="one"></div>
+				                        <div id="two"></div>
+				                        <div id="three"></div>
+			                       </div>
+	                        </div> 
+                        
+		    		</div>
+		    </header>
+
+     <hr class="mobile">
+     <!-- navigation menu for mobile device only -->
+    <div class="mobile-nav">
+        <ul>
+			 <li><a href="portfolio.html">PORTFOLIO</a></li>
+			<li class="about"><a href="#">ABOUT</a></li>
+			<li><a href="album.html">JOURNEY</a></li>
+	    </ul>
+    </div>
+     <div class="content-section">
+      	<div class="book container">
+                <div class="title col-3">
+                        <div class="title-text fadeLeft">
+			               	<h1>MEV-01</h1>
+			               	<h3><b>CONTEXT: </b>Game design</h3>
+			               	<h3><b>TYPE: </b>School Project</h3>
+			               	<h3><b>ROLE: </b>Programmer</h3>
+		               	</div>
+		               	<div class="title-holder"></div>
+                </div> 
+
+                 <div class="book-intro fadeUp col-9">   
+                    <img src="image/MEV-GAME-01.jpg" alt="game-coding-schoolProject">
+                    <h3>Description</h3>
+                    <p>MEV-01 is a cooperative stealth game that has two players utilizing their own skills to inﬁltrate and look for evidence of a vaccine.Both players have their own unique skills that can get each other through the heavily and they need each other in order to progress through undetected successfully. This project is completed under the cooperation of five team members. Instructor from Simon Fraser University and Game developers from EA Game Studio provided many useful advices and feedbacks to help us to improve this game.</p>
+                    <h3>Tools</h3>
+                    <p>Maya 3D / Illustrator / Java / Unity</p>
+                    <h3>Skills</h3>
+                    <p>Game Design / GUI design / Java Programming / User test /3D animation</p>
+                    <h3>Design Process</h3>
+                    <p><b>Stage 1: Concept Ideation</b></p>
+                    <p>From the very beginning to the beta version, this project took our five month to design, develop, test and release.
+                    In the first phase, we produced a design document that could help our team member to understand their role and some initial game concepts such as playtype, game play, mechanics and so on.
+                    <p><b>Initial game concepts</b></p>
+                    <ul>
+                        <li><b>Core Objective</b>: Player must steal information for his corporation, so he must trespass each room while avoiding guards and hacking devices. </li>
+                        <li><b>Player Type</b>: As the player must solve puzzles by planning and executing action sequences. This game would be more oriented towards the Achiever player type.</li>
+                        <li><b>Gameplay</b>: Player stealth game with an orthographic top-down view of the environment and its ingameobjects, player will be able to move around the environment while constantly entering x-ray mode.</li>
+                        <li><b>Mechanics</b>: General core mechanics are movement via the controller movement sticks, performing hacks on devices and lights at a safe location so that new areas and opportunities are open to the player.</li>
+                    </ul>
+                    <img src="image/mev-flowBoard.png" alt="MEV-gameDesign-flowboard">
+                    <img src="image/mev-gamePlay.png" alt="MEV-gameDesign-gamePlay">
+                    <img src="image/mev-coreLoop.png" alt="MEV-gameDesign-coreLoop">
+                    <p><b>Stage 2: Game world design</b></p>
+                    <p>Majority of our levels will be indoors in an office, laboratory, and a server room. The offices aesthetics will follow a contemporary office space with kitchens, board rooms, closets, private meeting rooms, and open spaces. Players will be utilizing the level architecture and furnishing placements to get past patrolling guards</p>
+                    <img src="image/mev-levelDesign.png" alt="MEV-gameDesign-gameWorld">
+
+                     <p><b>Stage 3: Prototype development</b></p>
+                     <p>When all designs and contents got confirmed after a series of group meeting, I, as a game developer, produced first prototype with C# and Javascript in unity game engine.</p>
+                     <img src="image/mev-prototype.png" alt="MEV-gameDesign-prototype">
+                     <p><b>Stage 4: Design refinements</b></p>
+                     <p>With the completion of the prototype, it helped us answer a few key questions prior to the completion of prototype.Is a cooperative stealth game viable, will different view and map brings conflicts and ruin the cooperation  between two players? We found at the end of prototype that the answers to all questions is a yes. So, we split screen and allow user to share same map in order to increase their communication and integrate character models,narrative and animation into our game, add two new levels with two new environments, make cameras turn back on, and further enhance the current diegetic UI components.</p>
+                     <img src="image/mev-refinedGamePlay.png" alt="MEV-gameDesign-gamePlay">
+                     <p><b>Decision Trees</b></p>
+                     <img src="image/mev-desicionTress.png" alt="MEV-gameDesign-decisionTree">
+                     <p><b>Refined game world</b></p>
+                     <p>For our first level. Both players are split off and will traverse through a short section of a level by themselves. As for narrative the players get a taste of what’s happening in the outside world and what they are tasked to do. Our second level has the two player meet up and begin the second half of the tutorial. Here, the players get a taste of working together to successfully progress through the level.</p>
+                     <p>For our second level, both players are just past the beginning of it all and are trying to locate the Head office. Here, the players should find information about the workplace and whatever secrets they may find within this organization.</p>
+                     <img src="image/mev-refinedLevel.png" alt="MEV-gameDesign-gameWorld">
+                     <p><b>Narrative & Game beats</b></p>
+                     <p>The chart below shows all the major beats in our game and what the player does during intervals of these beats. As pointed out, the gameplay beats for the hacker is to hack and dodge guards and the runner is to cloak and scout for the hacker.</p>
+                      <img src="image/mev-narrative.png" alt="MEV-gameDesign-narrative">
+                     <p><b>Stage 5: Beta version</b></p>
+                     <p>The team agrees that the game requires more polish, art direction. the kinesthetic of our game need to be improved so that the game is more enjoyable to play.The AI and UI will also be further refined to ensure that the game and the UI feedback feels like a complete package. So, we have decided to include a way-pointer or compass bar at the top that will indicate to the lpayer the general direction of their main objective, we also create energy bar for different player to indicate the skill using situation. </p>
+                     <img src="image/mev-skill.png" alt="MEV-gameDesign-beta">
+                     <img src="image/mev-opening.png" alt="MEV-gameDesign-beta">
+                     <img src="image/mev-openingB.png" alt="MEV-gameDesign-beta">
+                    <img src="image/mev-compass.png" alt="MEV-gameDesign-beta">
+
+
+                 </div>
+      	</div>
+     </div>
+</div>
+   <!-- little button for scrolling back to top -->
+    <div class="moveUp">
+   	     <i></i>
+    </div>
+     <!-- slideIn about page -->
+    <div class="about-page">
+         <div class="container">
+         	<div class="about-title col-3">
+         	    <div class="image-container">
+         			<img src="image/right-arrow.png" alt="button-image">
+         		</div>
+         		<div class="text-container">
+         			<h1>About Me</h1>
+         		</div>
+         	</div>
+         	<div class="about-text">
+                <div class="col-5">
+                       <h2>Hi,there！</h2>
+                       <h3>I am Alex Wei, a front-end developer born China living in Vancouver.</h3>
+                       <p>I am a creative designer who specialize at designing and developing compelling but solid, structured and user friendly user interface and website. It has been six years since I started to learn interactive design at simon fraser university, photography and video were gateways leading me into design industry, but then I decided to move into the field of website design and programming because nowadays the way that people make communication is changing and the whole world is driven digitally.</p>
+                       <p>Base on my daily work, I frequently use  Adobe CS, Axure PR,  HTML/CSS, bootstrap, JS/JQuery, but I am confident to do basic php/mysql programming work as well.</p><br>
+                       <h2>Contact</h2>
+                       <p>I am still growing and looking for new opportunity to develop more creative project, interested by my work or are you just a curious person? Contact me and work together!</p>
+
+                      <h3><a href="mailto:alexwei.work@gmail.com">Email:</a> alexwei.work@gmail.com</h3>
+                      <h3>Mobile: +1(778)680-9167</h3>
+                      <h3>Social Media & Resume:</h3>
+                      <nav class="footer-nav">
+                        <ul>
+                            <li><a class="fb" href="https://www.facebook.com/alex.wei.5015"></a></li>
+                            <li><a class="fl" href="https://www.flickr.com/photos/130954231@N03/"></a></li>
+                            <li><a class="in" href="http://www.linkedin.com/in/alex-wei-453a93a4/"></a></li>
+                            <li><a class="git" href="https://github.com/AlexWeiDev"></a></li>
+                            <li><a class="cv"  href="http://www.sfu.ca/~weibinw/resume.pdf" target="_blank"></a></li>
+                        </ul>
+                      </nav>
+                </div>    
+            </div>
+         	<div class="about-photo col-3">
+         		<img src="image/profile.jpg" alt="profile-image">
+         	</div>
+         </div>
+    </div>
+    <footer>
+    	<div class="site-footer container">
+    		<div class="footer-text col-6">
+    			<p>&copy;Designed & developed by Alex Wei.</p>
+    		</div>
+    		<nav class="footer-nav col-6">
+    			<ul>
+    				<li><a class="fb" href="https://www.facebook.com/alex.wei.5015"></a></li>
+    				<li><a class="fl" href="https://www.flickr.com/photos/130954231@N03/"></a></li>
+    				<li><a class="in" href="http://www.linkedin.com/in/alex-wei-453a93a4/"></a></li>
+    				<li><a class="git" href="https://github.com/AlexWeiDev"></a></li>
+    			    <li><a class="cv"  href="http://www.sfu.ca/~weibinw/resume.pdf" target="_blank"></a></li>
+    			</ul>
+    		</nav>
+    	</div>
+    </footer>
+
+     <div id="imageScreen" class="fadeUp">
+            <i class="cancel">&times;</i>
+            <img id="detailedImg" src="#" alt="big-image">
+    </div>
+
+    <div id="popup-cover"> 
+    </div>
+
+     <script src="javaScript/mainJs.js"></script>
+     <script>
+        /*greeting on the tab of window*/
+                  $(window).focus(function() {
+                    document.title = " MEV-01 | Game design";
+                    });
+                    $(window).blur(function() {
+                    document.title = "Have a good day, see u ;)";
+                });
+    </script>
+	
+</body>
+</html>
